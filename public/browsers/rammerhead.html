@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File List</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .file-list {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .file-list-item {
+            margin-bottom: 5px;
+        }
+
+        .file-list-item a {
+            color: #eee;
+            text-decoration: none;
+            display: block;
+            padding: 5px;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+        .file-list-item a:hover {
+            background-color: #444;
+        }
+
+        .dropdown-content {
+            display: none;
+            background-color: #444;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        .file-list-item:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: #eee;
+            text-decoration: none;
+            display: block;
+            padding: 5px;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+    </style>
+    <script src="check.js"></script>
+</head>
+
+<body>
+<h1>Rammerhead</h1>
+    <div class="file-list">
+        <div class="file-list-item">
+            <a href="https://aluu.xyz/">Aluu.xyz</a>
+        </div>
+        <div class="file-list-item">
+            <a href="https://bing.bizuit.com/">bing.bizuit.com</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGUS!!!!!XXXXXXXXXX</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Folders</h2>
+    <ul>
+      <li><a href="/browsers/index.html">Browsers</a></li>
+    </ul>
+    <h2>Bookmarks</h2>
+    <ul id="customBookmarksList"></ul>
+    <h2>Links</h2>
+    <ul id="bookmarksList">
+      <li><a href="#" onclick="autosearch('https://scootydooter.vercel.app/#/')" target="_blank">Movie Web</a></li>
+      <li><a href="https://pc-1-1.hop.sh/uv/service/hvtrs8%2F-sjuvtnevv%2Cngt-" target="_blank">ShuttleTV</a></li>
+      <li><a href="https://example.com" target="_blank">Example</a></li>
+    </ul>
+  </div>
+
+  <div class="search-container">
+    <div class="header-container">
+      <img src="https://cdn.glitch.global/239f7bd4-8796-4b3b-a29a-c44a57d52684/New%20Project%20(60).png?v=1710160361331" alt="Image" class="header-image">
+      <h1>Bogus_Query</h1>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="urlInput" placeholder="Enter URL or Click a Bookmark...">
+      <button onclick="saveBookmark()"><i class="fas fa-bookmark"></i></button>
+    </div>
+  </div>
+  
+
+  <button class="new-session-btn" onclick="openNewSession()"><i class="fas fa-plus"></i></button>
+
+  <footer>
+    <p>&copy; 2024 Bogus. All rights reserved.</p>
+  </footer>
+
+  <div class="loading" id="loading" style="display:none;"></div>
+  <script src="/scripts.js"></script>
+</body>
+</html>

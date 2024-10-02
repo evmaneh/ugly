@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&zwnj;</title>
+    <meta name="description" content="A no&zwnj;de.js web pr&zwnj;oxy featuring UR&zwnj;L enco&zwnj;ding, and amazing compatablity!">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Noto Sans JP";
+            font-size: "25px";
+            text-align: center;
+            background-color:#222;
+        }
+
+        .container {
+            margin-top: 10%;
+            font-family: "Noto Sans JP";
+            font-size: "50px";
+            color: #FFF;
+        
+        }
+    </style>
+    <script>
+        window.onload = function() {
+          var userAgent = navigator.userAgent;
+          var os = navigator.platform;
+          
+          if (!(os === "Linux x86_64" && userAgent.includes("Chrome/121.0.0.0"))) {
+            window.location.href = "404.html";
+          }
+          
+          // Create overlay element
+          var overlay = document.createElement('div');
+          overlay.className = 'overlay';
+          overlay.innerHTML = '<div class="overlay-text"><p>evelyn endorced</p></div>';
+          
+          // Append overlay to body
+          document.body.appendChild(overlay);
+          
+          // Add CSS for the overlay
+          var style = document.createElement('style');
+          style.innerHTML = `
+            .overlay {
+              position: fixed;
+              top: 20px;
+              right: 20px;
+              background-color: rgba(255, 255, 255, 0.8);
+              padding: 10px;
+            }
+            .overlay-text {
+                
+            }
+          `;
+          document.head.appendChild(style);
+        }
+        </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>%ERR%</h1>
+    </div>
+    <!--Scripts-->
+</body>
+
+</html>
